@@ -24,3 +24,6 @@ RUN \
 	pip3 install --no-cache-dir -U \
 		beets \
 		pyacoustid
+		
+# ports and volumes
+VOLUME /config /storage
